@@ -1,0 +1,58 @@
+body {
+  font-size: 18px;
+  text-align: center;
+}
+
+h1 {
+  color: rgb(255,37,106);
+  font-weight: bolder;
+  margin: 3% 0;
+}
+
+#submit, #delete {
+  font-size: 15px;
+  background-color: rgb(0,187,255);
+  margin: 3%;
+}
+
+#form {
+  border: 1px solid black;
+  width: auto;
+  padding: 1%;
+  margin: 3% 30%;
+}
+
+#employeeForm {
+  line-height: 24px;
+}
+
+#required {
+  font-size: 13px;
+}
+
+#holdData {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+th {
+  text-decoration: underline;
+  padding-bottom: 6px;
+}
+
+tr:nth-child(2) {
+  color: grey;
+}
+
+tr:nth-child(even) {
+  background-color: rgb(161,234,147);
+}
+
+td {
+  padding: 3px;
+}
+
+#monthly {
+  color: rgb(255,37,106);
+}

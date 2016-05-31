@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Weekend Challenge 1 | Bethany Johnson</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scripts/jquery-1.12.3.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
+  </head>
+  <body>
+    <h1>Monthly Cost of Paying Employees</h1>
+    <section id="form">
+      <h3>Complete each field for the employee you wish to track.</h3>
+      <form id="employeeForm">
+        * Employee First Name: <input type="text" id="firstName" value=""><br>
+        * Employee Last Name: <input type="text" id="lastName" value=""><br>
+        * Employee ID Number: <input type="number" id="empNum" value=""><br>
+        * Employee Job Title: <input type="text" id="jobTitle" value=""><br>
+        * Employee Annual Salary ($): <input type="number" id="empSalary" value=""><br><br>
+        <b id="required">* Indicates a required field</b>
+      </form>
+      <button type="button" id="submit" onclick="submitData()">Submit Employee</button><br>
+    </section>
+    <table id="holdData">
+      <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Employee ID #</th>
+        <th>Job Title</th>
+        <th>Annual Salary</th>
+        <th>Remove Employee?</th>
+      </tr>
+      <tr>
+        <td>e.g. Bethany</td>
+        <td>e.g. Johnson</td>
+        <td>e.g. 12345</td>
+        <td>e.g. CEO</td>
+        <td>e.g. $90,000.00</td>
+        <td><input type="button" id="delete" value="Delete"></td> <!--used to create delete button for each employee that will be used in jQuery function-->
+      </tr>
+    </table><br>
+    <h3>Monthly Cost of Salaries: <span id="monthly"></span></h3>
+  </body>
+</html>
